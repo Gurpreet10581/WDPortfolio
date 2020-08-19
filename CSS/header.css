@@ -6,6 +6,8 @@
    height: 50%;
 }
 #landing-section{
+  margin-right: 2em;
+  margin-left: 2em;
   animation: glowing 1300ms infinite;
 }
 @keyframes glowing {
