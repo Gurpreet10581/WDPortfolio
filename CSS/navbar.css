@@ -13,4 +13,10 @@
 }
 #navbar{
     opacity: .7;
+    font-family: var(--font-two);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #D3D3D3;
 }
