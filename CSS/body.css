@@ -28,12 +28,21 @@ body{
 }
 
 .softDev{
-    border: solid black 2px;
-    border-radius: 20em;
+    border-radius: 10em;
     display: cover;
+    background-color: #fff;
+    border: solid 2px black;
+    box-shadow:
+        inset 60px 0 120px #f0f,  
+        inset -60px 0 120px #0ff;
 }
 .webDev{
-    border: solid black 2px;
-    border-radius: 20em;
+    border-radius: 10em;
     display: cover;
+    background-color: #fff;
+    border: solid 2px black;
+    box-shadow:
+        inset 60px 0 120px rgba(255, 230, 0, 0.884),  
+        inset -60px 0 120px rgb(206, 100, 14);
+    
 }

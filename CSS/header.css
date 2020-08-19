@@ -5,6 +5,20 @@
    text-align: center;
    height: 50%;
 }
+#landing-section{
+  animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 20px orange;
+  }
+  50% {
+    box-shadow: 0 0 20px orange;
+  }
+  100% {
+    box-shadow: 0 0 20px orange;
+  }
+}
 .display-4 {
    /* background-size: cover; */
    color: #fff;
