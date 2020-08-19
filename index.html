@@ -13,40 +13,204 @@
 </head>
 <body>
     <!-- Nav section-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav" id="nav-content">
-            <li class="nav-item active">
-              <a class="nav-link li-tag" href="#landing-section">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link li-tag" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link li-tag" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      
+    <div id="navbar">
+      <div class="navBar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand " href="#"><img id="nav-logo" class="icon" src="./assets/logo-via-logohub (2).png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" id="nav-content">
+              <li class="nav-item active">
+                <a class="nav-link li-tag" href="#landing-section">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link li-tag" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link li-tag" href="assets/Resume.pdf" target="blank" title="Resume">Resume</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link li-tag" href="#about" >About</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link li-tag" href="#contact" >Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
       <!--Jumbotron-->
       <section id="landing-section">
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">Gurpreet Singh</h1>
+            <p class="lead">Software Developer | .NET Specialist</p>
+            <p class="lead">Web Developer | JavaScript Specialist</p>
           </div>
         </div>
       </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+               <div class="row">
+                    <div class="col">
+                   <b><p class="about" > About Me</p></b>
+                   </div>
+               </div>
+           </div>
+        <div id="about-me" class="container">
+           <div class="row">
+               <div class="col-xs-12 col-sm-12 col-md-8">
+                   <p id="about-me-text">
+                     <p>
+                     With my formal training as an Industrial Engineer, I stumbled upon coding and development while looking for a career change. I have always been the type of person who likes to solve problems and be challenged, and software development became my means to develop new skills and grow in a dynamic environment. 
+                   </p>
+
+                     <p>
+                     With completing Eleven Fifty Academy’s Software and Web Development Courses, I was able to find a platform to exercise my skills in problem solving and detail oriented results. Although I am new to developing, I am yearning to gain experience in areas that highlight my aptitude and creativity. 
+                   </p>
+                     
+                     My training with software and Web developing has been challenging, but I am working hard to become the best developer I can be and am looking forward to a successful career in this industry. 
+                   </p>
+                   <div id="signature-div">
+                   
+                   </div>
+               </div>
+               <div class="col-xs-12 col-sm-12 col-md-4">
+                   <img id="profile-pic" src="Assets/PHOTO-2020-04-03-14-33-15.jpg" alt="Profile picture" title="Hello!">
+               </div>
+           </div>
+        </div> <br><br>
+
+      <section id="portfolio">
+        <div class="softDev">
+        <b><p id="title">Software Development Projects</p></b>
+<div  id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+   <ol class="carousel-indicators">
+     <li data-target="https://codepen.io/dashboard/" data-slide-to="0" class="active"></li>
+     <li data-target="file:///C:/Users/ergur/Desktop/ElevenfiftyProjects/HTMLCSSPrework/Gold%20Badge/StaticStorefront/index.html" data-slide-to="1"></li>
+     <li data-target="https://github.com/Gurpreet10581/GoldBadgeConsoleApplicationChallenges" data-slide-to="2"></li>
+     <li data-target="https://github.com/gremurra/GlucosePatrol" data-slide-to="3"></li>
+     <li data-target="https://ratememvc.azurewebsites.net/" data-slide-to="4"></li>
+
+   </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <h5 >CodePen Project</h5>
+       <a href="https://codepen.io/dashboard/"><img src="Assets/CodePen1.PNG" class="d-block w-100" alt="StaticStorefront"></a>
+       <div class="carousel-caption d-none d-md-block">
+       </div>
+     </div>
+     <div class="carousel-item">
+       <h5>Stactic Store Front Project</h5>
+      <a href="https://github.com/Gurpreet10581/StaticStoreFront/blob/master/index.html"> <img src="Assets/storefront.PNG" class="d-block w-100" alt="StaticStorefront"></a>
+       <div class="carousel-caption d-none d-md-block">
+       </div>
+     </div>
+     <div class="carousel-item">
+       <h5>Console Application Project</h5>
+       <a href="https://github.com/Gurpreet10581/GoldBadgeConsoleApplicationChallenges"><img src="Assets/GoldBadge1.PNG" class="d-block w-100" alt="GitHub"></a>
+       <div class="carousel-caption d-none d-md-block">
+       </div>
+     </div>
+     <div class="carousel-item">
+       <h5>GlucosePatrol Group API Project</h5>
+       <a href="https://github.com/gremurra/GlucosePatrol"><img src="Assets/BlueBadge1.PNG" class="d-block w-100" alt="GitHub"></a>
+       <div class="carousel-caption d-none d-md-block">
+       </div>
+     </div>
+     <div class="carousel-item">
+       <h5>RateMe Azure MVC Project</h5>
+       <a href="https://ratememvc.azurewebsites.net/"><img src="Assets/RedBadge1.PNG" class="d-block w-100" alt="GitHub"></a>
+       <div class="carousel-caption d-none d-md-block">
+       </div>
+     </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+</div>
+ <br><br>
+ <div class="webDev">
+  <b><p id="title">Web Development Projects</p></b>
+  <div  id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="https://codepen.io/dashboard/" data-slide-to="0" class="active"></li>
+      <li data-target="file:///C:/Users/ergur/Desktop/ElevenfiftyProjects/HTMLCSSPrework/Gold%20Badge/StaticStorefront/index.html" data-slide-to="1"></li>
+      <li data-target="https://github.com/Gurpreet10581/GoldBadgeConsoleApplicationChallenges" data-slide-to="2"></li>
+      <li data-target="https://github.com/gremurra/GlucosePatrol" data-slide-to="3"></li>
+      <li data-target="https://ratememvc.azurewebsites.net/" data-slide-to="4"></li>
+      <li data-target="https://ratememvc.azurewebsites.net/" data-slide-to="5"></li>
+
+ 
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h5 >CSS Creature CodePen</h5>
+        <a href="https://codepen.io/Gurpreet1989/pen/XWXwmqg"><img src="assets/CSSCreature.png" class="d-block w-100" alt="StaticStorefront"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h5>Static Layout</h5>
+       <a href="https://gurpreet10581.github.io/StaticLayoutWD/"> <img src="assets/StaticLayout.png" class="d-block w-100" alt="StaticStorefront"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h5>API Project #1</h5>
+        <a href="https://gurpreet10581.github.io/API_OneChallenge/"><img src="assets/APIOne.png" class="d-block w-100" alt="GitHub"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h5>API Project #2</h5>
+        <a href="https://api-projectwd.firebaseapp.com/"><img src="assets/APITwo.png" class="d-block w-100" alt="GitHub"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h5>Blue Badge TBA</h5>
+        <a href="##"><img src="assets/ComingsoonOne.jpg" class="d-block w-100" alt="GitHub"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <h5>Red Badge TBA</h5>
+        <a href="##"><img src="assets/ComingsoonTwo.jpg" class="d-block w-100" alt="GitHub"></a>
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+ </div>
+ </div>
+
+</section>
+      
+      <div id="contact">
+
+      </div>
       <!-- Bootstrap Layout -->
-      <section>
+      <!-- <section>
         <div class="container">
           <div class="row">
             <div class="col-md-4 offset-md-4"> This is a column</div>
@@ -60,15 +224,14 @@
             <div class="col"> This is the second column</div>
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- Contact -->
-      <section id="contact">
+      <!-- <section id="contact">
         <div class="container">
           <form
   action="https://formspree.io/xknqernz"
-  method="POST"
->
+  method="POST">
   <label>
     Your email:
     <input type="text" name="_replyto">
@@ -76,17 +239,29 @@
   <label>
     Your message:
     <textarea name="message"></textarea>
-  </label>
+  </label> -->
 
   <!-- your other form fields go here -->
 
-  <button type="submit">Send</button>
+  <!-- <button type="submit">Send</button>
 </form>
 
         </div>
-      </section>
+      </section> -->
 
     <!--Bootstrap script tags-->
+    <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+      }
+      </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

@@ -1,0 +1,14 @@
+#profile-pic{
+    height: 25em;
+    border-radius: 30px;
+    border: solid black 2px
+}
+.about{
+    font-family: var(--font-two);
+    font-size: x-large;
+    text-align: center;
+    
+}
+#about-me{
+    background-size: cover;
+}
